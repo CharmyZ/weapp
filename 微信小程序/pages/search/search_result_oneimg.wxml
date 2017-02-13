@@ -1,0 +1,7 @@
+<!--pages/search/search_result_oneimg.wxml-->
+<view class="page" >     
+          <scroll-view scroll-y="true" scroll-x="true" style="display:inline;" >
+            <image src="{{item}}" style="width:{{ scaleWidth }}px;height:{{ scaleHeight }}px"  mode="aspectFit" bindtouchmove="touchmove" bindtouchend="touchend" bindtouchstart="touchstart" bindtouchcancel="touchcancel" bindtap="clickImg" ></image>
+          
+          </scroll-view>
+  </view>

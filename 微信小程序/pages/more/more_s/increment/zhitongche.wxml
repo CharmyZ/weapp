@@ -1,0 +1,7 @@
+
+<!--pages/more/more_s/increment/zhitongche.wxml-->
+<view class="page">
+  <image style="width:100%;height:300rpx;" src="http://ytgrading.com/coin-portlet/html/zhitongche/img/2015-06-26-04.jpg"></image>
+  <image style="width:100%;height:300rpx;" src="http://ytgrading.com/coin-portlet/html/zhitongche/img/2015-04-22-02.jpg"></image>
+  <image style="width:100%;height:300rpx;" src="http://ytgrading.com/coin-portlet/html/zhitongche/img/2015-04-22-03.jpg"></image>
+</view>

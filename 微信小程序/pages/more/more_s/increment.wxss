@@ -1,0 +1,47 @@
+/* pages/more/more_s/increment.wxss */
+
+.page {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f2f2;
+}
+
+.main_one {
+  background-color: #fff;
+  width: 100%;
+  height: 160rpx;
+  margin-bottom: 40rpx;
+}
+
+.main_two {
+  background-color: #fff;
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.list text {
+  position: absolute;
+  font-size: 28rpx;
+  margin-left: 25rpx;
+  line-height: 80rpx;
+}
+
+.icon_s {
+  width: 45rpx;
+  height: 45rpx;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}
+
+.icon_right {
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 570rpx;
+  margin-top: 25rpx;
+}

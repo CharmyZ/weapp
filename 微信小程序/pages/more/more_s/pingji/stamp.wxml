@@ -1,0 +1,127 @@
+
+<!--pages/more/more_s/pingji/pingji.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">送评范围</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">评级标准</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">收费标准</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <view class="content" style="color:#000;font-weight:bold">已开通业务范围：</view>
+      <view class="content">清代至新中国邮票</view>
+      <view class="content">2000年至今的世界邮票</view>
+      <view class="content" style="color:#000;font-weight:bold">已开通规格范围：</view>
+      <view class="content">邮票尺寸在40mmX62mm（含）以内，单枚。</view>
+      <view class="content">提示：邮票送评前需与工作人员确认</view>
+      <view class="content">更多业务版块及规格尺寸即将开放送评，敬请期待。</view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <view class="th">
+        <view style="border-right: 1rpx solid #FFF;">分值等级</view>
+        <view>详细说明</view>
+      </view>
+      <view class="td">
+        <view style="border-right: 1rpx solid #FFF;">95-100</view>
+        <view>全品</view>
+      </view>
+      <view class="td_s">
+        <view style="border-right: 1rpx solid #FFF;">80、85、90</view>
+        <view>上品</view>
+      </view>
+      <view class="td">
+        <view style="border-right: 1rpx solid #FFF;">65、70、75</view>
+        <view>上中品</view>
+      </view>
+      <view class="td_s">
+        <view style="border-right: 1rpx solid #FFF;">50、60</view>
+        <view>中品</view>
+      </view>
+      <view class="td">
+        <view style="border-right: 1rpx solid #FFF;">30、40</view>
+        <view>中下品</view>
+      </view>
+      <view class="td_s">
+        <view style="border-right: 1rpx solid #FFF;">20</view>
+        <view>差品</view>
+      </view>
+      <view class="content">
+        <text>源泰评级对表面状况出现较严重问题等邮票将不予评分，此类邮票仍将进行入盒封装。</text>不予评分的原因将以编码形式呈现，部分原因对照如下：
+      </view>
+      <view class="content">
+        <text>360 严重褪色</text>
+      </view>
+      <view class="content">
+        <text>360 严重褪色</text>
+      </view>
+      <view class="content">
+        <text>361 人为后胶</text>
+      </view>
+      <view class="content">
+        <text>362 药水擦拭</text>
+      </view>
+      <view class="content">
+        <text>363 药水处理</text>
+      </view>
+      <view class="content">
+        <text>365 重打齿</text>
+      </view>
+      <view class="content">
+        <text>366 补角</text>
+      </view>
+      <view class="content">
+        <text>367 金粉修补</text>
+      </view>
+      <view class="content">
+        <text>368 严重粘连</text>
+      </view>
+      <view class="content">
+        <text>369 剪片贴片</text>
+      </view>
+      <view class="content">
+        <text>370 本票邮折内芯缺损</text>
+      </view>
+      <view class="content">
+        <text>此外，源泰评级对一些严重受损的、存疑的或赝品邮票将不予入盒封装。</text>此类送评邮票将退还给客户，并附上不予封装的理由。部分不予封装的理由如下： </view>
+      <view class="content">
+        <text>380 重上色</text>
+      </view>
+      <view class="content">
+        <text>381 重上金粉 </text>
+      </view>
+      <view class="content">
+        <text>382 拼接 </text>
+      </view>
+      <view class="content">
+        <text>383 换底 </text>
+      </view>
+      <view class="content">
+        <text>385 刮戳</text>
+      </view>
+      <view class="content">
+        <text>386 赝品</text>
+      </view>
+      <view class="content">
+        <text>387 臆造品</text>
+      </view>
+      <view class="content">
+        <text>388 存疑品种</text>
+      </view>
+      <view class="content">
+        <text>389 近期流入市场半成品票</text>
+      </view>
+      <view class="content">
+        <text>390 无此项服务 </text>
+      </view>
+      <view style="height:150rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <image src="http://ytgrading.com/coin-portlet/html/help/img/terms/stamp-15-06-03.jpg" style="width:100%;"></image>
+      <view style="height:100rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,67 @@
+<view class="page">
+  <view class="logo">
+    <image src="../../image/logo.png"></image>
+  </view>
+  <view class="main_one">
+    <navigator url="more_s/intro?title=intro" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/intro.png" class="icon_s"></image>
+        <text>公司简介</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+    <navigator url="more_s/us?title=us" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/phone.png" class="icon_s"></image>
+        <text>联系我们</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+  </view>
+  <view class="main_two">
+    <navigator url="more_s/pingji?title=pingji" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/pingji.png" class="icon_s"></image>
+        <text>评级服务</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+    <navigator url="more_s/deposite?title=deposite" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/deposit.png" class="icon_s"></image>
+        <text>托管服务</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+    <navigator url="more_s/increment?title=increment" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/personality.png" class="icon_s"></image>
+        <text>增值服务</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+    <navigator url="more_s/fengzhuang?title=fengzhuang" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/ensure.png" class="icon_s"></image>
+        <text>封装保护</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+    <navigator url="more_s/team?title=team" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/team.png" class="icon_s"></image>
+        <text>团队介绍</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+    <navigator url="more_s/xieyi?title=xieyi" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="../../image/xieyi.png" class="icon_s"></image>
+        <text>服务协议</text>
+        <image src="../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<!---->

@@ -1,0 +1,129 @@
+
+<!--pages/more/more_s/pingji/pingji.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">送评范围</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">评级标准</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">收费标准</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <view class="content" style="color:#000;font-weight:bold">已开通业务范围：</view>
+      <view class="content"> 清代至新中国纸钞</view>
+      <view class="content">世界纸钞</view>
+      <view class="content"> 由官方印钞厂、大型钱币公司发行的具有防伪标记的各类测试券、纪念券。</view>
+      <view class="content"> 双连、三连及四连纸钞</view>
+      <view class="content" style="color:#000;font-weight:bold">已开通规格范围：</view>
+      <view class="content">单张纸钞尺寸190mm x 92mm（含）以内</view>
+      <view class="content">双连、三连及四连纸钞的规格范围烦请咨询工作人员</view>
+      <view class="content">更多业务版块及规格尺寸即将开放送评，敬请期待。</view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <view class="th">
+        <view style="border-right: 1rpx solid #FFF;">分值等级</view>
+        <view>详细说明</view>
+      </view>
+      <view class="td">
+        <view style="border-right: 1rpx solid #FFF;">96-100</view>
+        <view>完美品</view>
+      </view>
+      <view class="td_s">
+        <view style="border-right: 1rpx solid #FFF;">90-95</view>
+        <view>未使用品</view>
+      </view>
+      <view class="td">
+        <view style="border-right: 1rpx solid #FFF;">70，,75,80,85</view>
+        <view>近未使用品</view>
+      </view>
+      <view class="td_s">
+        <view style="border-right: 1rpx solid #FFF;">50,55,60,65</view>
+        <view>精美品</view>
+      </view>
+      <view class="td">
+        <view style="border-right: 1rpx solid #FFF;">30,35,40,45</view>
+        <view>美品</view>
+      </view>
+      <view class="td_s">
+        <view style="border-right: 1rpx solid #FFF;">1,5,10,15,20,25</view>
+        <view>普品</view>
+      </view>
+      <view class="content">
+        <text>源泰评级对表面状况出现较严重问题的纸钞会标明NET标识，</text>此类纸钞仍将进行入盒封装并给分。获得NET的原因 将以英文形式呈现，部分原因对照如下：
+      </view>
+      <view class="content">
+        <text>Chopmarks 戳记</text>
+      </view>
+      <view class="content">
+        <text>PVC Damage PVC损害</text>
+      </view>
+      <view class="content">
+        <text>Repaired 修补</text>
+      </view>
+      <view class="content">
+        <text>Restoration 修复</text>
+      </view>
+      <view class="content">
+        <text>Stained 污渍</text>
+      </view>
+      <view class="content">
+        <text>Paper Pull 纸张拉伸</text>
+      </view>
+      <view class="content">
+        <text>Toning 变色 </text>
+      </view>
+      <view class="content">
+        <text>Previously Mounted 装帧</text>
+      </view>
+      <view class="content">
+        <text>Rust 锈蚀</text>
+      </view>
+      <view class="content">
+        <text>Pinhole 针眼</text>
+      </view>
+      <view class="content">
+        <text>Tears 撕裂 </text>
+      </view>
+      <view class="content">
+        <text>Thinning 揭薄</text>
+      </view>
+      <view class="content">
+        <text>Discoloration 污染退色</text>
+      </view>
+      <view class="content">
+        <text>Adhesive 黏物</text>
+      </view>
+      <view class="content">
+        <text>Paper Damage 纸钞损伤</text>
+      </view>
+      <view class="content">
+        <text>Margin Damage 边沿损伤</text>
+      </view>
+      <view class="content">
+        <text>Writing 写字 </text>
+      </view>
+      <view class="content">
+        <text>此外，源泰评级对一些严重受损的、存疑的或赝品纸钞将不予入盒封装。</text>此类送评纸钞将退还给客户，并附上不予封装的理由。部分不予封装的理由如下： </view>
+      <view class="content">
+        <text>351．戏作币</text>
+      </view>
+      <view class="content">
+        <text>352．赝品 </text>
+      </view>
+      <view class="content">
+        <text>353．存疑</text>
+      </view>
+      <view class="content">
+        <text>355．无此项服务</text>
+      </view>
+      <view style="height:150rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <image src="http://ytgrading.com/coin-portlet/html/help/img/terms/bill-15-01-13-01.jpg" style="width:100%;"></image>
+      <view style="height:100rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+</swiper>

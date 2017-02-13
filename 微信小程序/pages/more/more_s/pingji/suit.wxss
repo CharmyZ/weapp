@@ -1,0 +1,12 @@
+@import "/css/swiper.wxss";
+.swiper-tab-list {
+  font-size: 30rpx;
+  width: 33.33%;
+}
+
+.content {
+  width: 90%;
+  margin-left: 5%;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
