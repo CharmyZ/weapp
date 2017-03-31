@@ -1,5 +1,3 @@
-
-<!--pages/index/index.wxml-->
 <view class="page">
   <view class="page-top">
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
@@ -21,55 +19,40 @@
       <text>评级新品展现
       </text>
     </view>
-    <view class="row">
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/1600169b-cba2-4aec-87c3-1285b178c5fb.jpg" bindtap="clickd"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/57bbe841-db4d-4705-a9a0-bded16316b19.jpg" bindtap="clicka"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/dcfbab7d-0090-45be-ae35-771151dab0c1.jpg" bindtap="clickb"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/f8f3b720-5566-453f-aee2-4fa27b42cd68.jpg" bindtap="clickc"></image>
-      </view>
+     <view class="row">
+      <block wx:for="{{scoreCoin}}" wx:for-index="idx" wx:for-item="item">
+        <view class="item_size">
+          <navigator url="{{item.url}}" hover-class="navigator-hover">
+            <image class="img_show" src="{{item.path}}"></image>
+          </navigator>
+        </view>
+      </block>
     </view>
     <view class="title_s">
       <text>邮票精品展现
       </text>
     </view>
     <view class="row">
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/b13578b5-06ad-49ff-8075-1421cbfa197d.jpg" bindtap="clicke"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/fc0855b6-86cd-44c9-933b-5120e4fb6086.jpg" bindtap="clickf"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/30e18d68-92cb-4d3d-bb49-0735a72ecd88.jpg" bindtap="clickg"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/1351ab5b-e857-47b4-87b8-9c45c1df1dd5.jpg" bindtap="clickh"></image>
-      </view>
+      <block wx:for="{{stamp}}" wx:for-index="idx" wx:for-item="item">
+        <view class="item_size">
+          <navigator url="{{item.url}}" hover-class="navigator-hover">
+            <image class="img_show" src="{{item.path}}" bindtap="clickStamp"></image>
+          </navigator>
+        </view>
+      </block>
     </view>
     <view class="title_s">
       <text>钱币精品展现
       </text>
     </view>
     <view class="row" style="margin-bottom:30px;">
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/cb744504-0182-444e-8a91-26b398bbba2f.jpg" bindtap="clicki"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/f47a92aa-5028-405e-95fe-9f4e3d81f838.jpg" bindtap="clickj"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/aa8f474a-2cf2-400e-a608-13f9696ed179.jpg" bindtap="clickk"></image>
-      </view>
-      <view class="item_size">
-        <image class="img_show" src="http://ytgrading.com/coin/index/pubimage/showCase/364bc188-4472-4162-9bbc-e5206611fe50.jpg" bindtap="clickl"></image>
-      </view>
+      <block wx:for="{{coin}}" wx:for-index="idx" wx:for-item="item">
+        <view class="item_size">
+          <navigator url="{{item.url}}" hover-class="navigator-hover">
+            <image class="img_show" src="{{item.path}}" bindtap="clickCoin"></image>
+          </navigator>
+        </view>
+      </block>
     </view>
   </view>
 </view>
