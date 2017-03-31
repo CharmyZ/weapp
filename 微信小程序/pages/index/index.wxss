@@ -59,11 +59,11 @@ swiper-item image {
   align-items: center;
   height: 230rpx;
   width: 280rpx;
-  border: 1rpx solid #ccc;
   margin-bottom: 30rpx;
 }
 
 .img_show {
   width: 260rpx;
   height: 230rpx;
+  border: 1rpx solid #ccc;
 }
