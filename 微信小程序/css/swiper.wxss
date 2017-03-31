@@ -1,0 +1,27 @@
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #777;
+  text-align: center;
+  line-height: 80rpx;
+  position: fixed;
+  z-index: 999;
+}
+
+.swiper-tab-list {
+  display: inline-block;
+  color: #777;
+}
+
+.on {
+  color: #da7c0c;
+  border-bottom: 5rpx solid #da7c0c;
+}
+
+.swiper-box {
+  height: auto;
+  width: 100%;
+  display: inline;
+}
+swiper-item {
+  margin-top: 100rpx;
+}

@@ -1,0 +1,36 @@
+
+<!--pages/more/more_s/pingji/pingji.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">送评范围</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">评级标准</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">收费标准</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <view class="content" style="color:#000;font-weight:bold">已开通业务范围：</view>
+      <view class="content"> 2003—2014第一轮生肖纪念币（整套）</view>
+      <view class="content">更多业务版块及规格尺寸即将开放送评，敬请期待。</view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <view class="content">★ 套装系列评级标准参照内部封装藏品所属类别评级标准
+      </view>
+      <view class="content">★ 套装系列分数显示效果如下：</view>
+      <view class="content" style="colorL:red;">1，源泰评级默认对12枚纪念币分别评分并封装入盒</view>
+      <image src="http://ytgrading.com/coin-portlet/html/help/img/suit12.jpg?fv=001" style="width:100%;"></image>
+      <view class="content" style="colorL:red;">2，评级过程中，如12枚纪念币分数一致时，标签仅显示本次鉴定评级的统一分数；</view>
+      <image src="http://ytgrading.com/coin-portlet/html/help/img/suit2.jpg?fv=001" style="width:100%;"></image>
+      <view class="content" style="colorL:red;">3，评级过程中，如客户要求保真或其中任意一枚纪念币的评级结果为真品时，整套12生肖纪念币不显示分数。</view>
+      <image src="http://ytgrading.com/coin-portlet/html/help/img/suit1.jpg?fv=001" style="width:100%;"></image>
+      <view style="height:150rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <image src="http://ytgrading.com/coin-portlet/html/help/img/terms/suit-2016-7-22.png" style="width:100%;height:200rpx;"></image>
+      <view style="height:100rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+</swiper>

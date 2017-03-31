@@ -1,0 +1,14 @@
+/* pages/more/intro.wxss */
+
+.page {
+  margin-top: 20rpx;
+  width: 100%;
+}
+
+.page view {
+  background-color: #fff;
+  width: 90%;
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  margin-left: 5%;
+}

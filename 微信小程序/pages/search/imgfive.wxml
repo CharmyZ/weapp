@@ -1,0 +1,4 @@
+<!--pages/search/imgfive.wxml-->
+<view class="page">
+  <image style="width:{{ scaleWidth }}px;height:{{ scaleHeight }}px"  mode="widthFix"  src="http://www.ytgrading.com/coin-portlet/html/doublefullmoon/img/20170315-jixiangwenhua.png" bindtouchmove="touchmove" bindtouchend="touchend" bindtouchstart="touchstart" bindtouchcancel="touchcancel"></image>
+</view>

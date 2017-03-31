@@ -1,0 +1,75 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/more/more",
+     "pages/search/imgone",
+     "pages/search/imgtwo",
+     "pages/search/imgthree",
+     "pages/search/imgfour",
+     "pages/search/imgfive",
+     "pages/search/search_result",
+     "pages/search/search_result_oneimg",
+     "pages/more/more_s/intro",
+     "pages/more/more_s/us",
+     "pages/more/more_s/deposite",
+     "pages/more/more_s/increment",
+     "pages/more/more_s/fengzhuang",
+     "pages/more/more_s/team",
+     "pages/more/more_s/increment/personality",
+     "pages/more/more_s/increment/zhitongche",
+     "pages/more/more_s/increment/liangzhounian",
+     "pages/more/more_s/increment/either",
+     "pages/more/more_s/pingji",
+      "pages/more/more_s/xieyi",
+      "pages/more/more_s/pingji/center",
+      "pages/more/more_s/pingji/ancientcoin",
+      "pages/more/more_s/pingji/coin",
+      "pages/more/more_s/pingji/mechanismcoin",
+      "pages/more/more_s/pingji/bill",
+      "pages/more/more_s/pingji/stamp",
+      "pages/more/more_s/pingji/suit", 
+      "pages/user/user_s/apply",
+      "pages/user/user_s/info" ,
+      "pages/user/user_s/manage" ,
+      "pages/user/user_s/wallet" ,
+      "pages/user/user_s/password" ,
+      "pages/user/user_s/txt" ,
+      "pages/user/user_s/contact",
+      "pages/user/user_s/address",
+       "pages/user/user_s/account"
+       
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#963",    
+    "navigationBarTextStyle":"white" 
+  },
+  "tabBar": { 
+    "color": "#ccc",  
+    "selectedColor": "#35495e",  
+    "borderStyle": "white",  
+    "backgroundColor": "#f9f9f9",  
+    "list": [{   
+        "text": "首页",  
+        "pagePath": "pages/index/index",  
+        "iconPath": "image/home.png",  
+        "selectedIconPath": "image/home-actived.png" 
+      },  
+      {     
+        "text": "发现",  
+        "pagePath": "pages/search/search",  
+        "iconPath": "image/search.png",  
+        "selectedIconPath": "image/search-color.png"  
+      },  
+     
+      {  
+        "text": "关于",  
+        "pagePath": "pages/more/more",  
+        "iconPath": "image/more.png",  
+        "selectedIconPath": "image/more-actived.png"  
+      }]  
+  }  
+}

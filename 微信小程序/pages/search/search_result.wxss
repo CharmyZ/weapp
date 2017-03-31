@@ -1,0 +1,42 @@
+/* pages/search/search_result.wxss */
+
+.page {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+swiper {
+  height: auto;
+  width: 100%;
+  display: inline;
+}
+
+swiper-item {
+  width: 100%;
+}
+
+.wx-swiper-dot.wx-swiper-dot-active::before {
+  color: #fff;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.title text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.error_text {
+  color: #fff;
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 350rpx;
+  z-index: 999;
+}

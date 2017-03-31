@@ -1,0 +1,34 @@
+
+<!--pages/more/more_s/pingji/pingji.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">钱币封装保护</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">大规格封装保护</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">纸钞封装保护</view>
+  <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">邮票封装保护</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <image src="http://ytgrading.com/coin-portlet/html/packagingprotection/img/2015-03-05-02.jpg" style="width:100%;height:1500rpx;"></image>
+      <view style="height:150rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1800rpx;display:inline;">
+      <image src="http://ytgrading.com/coin-portlet/html/packagingprotection/img/2015-03-05-01.jpg" style="width:100%;height:1800rpx;"></image>
+      <view style="height:100rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1650rpx;display:inline;">
+      <image src="http://ytgrading.com/coin-portlet/html/packagingprotection/img/2015-03-03-01.jpg" style="width:100%;height:1650rpx;"></image>
+      <view style="height:150rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+  <swiper-item>
+    <scroll-view scroll-y="true" style="height: 1500rpx;display:inline;">
+      <image src="http://ytgrading.com/coin-portlet/html/packagingprotection/img/2015-06-08-01.jpg?a=2" style="width:100%;height:1500rpx;"></image>
+      <view style="height:150rpx;"></view>
+    </scroll-view>
+  </swiper-item>
+</swiper>

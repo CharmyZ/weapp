@@ -1,0 +1,21 @@
+<view class="page">
+
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperChange">
+  <view class="title"><text>{{title}}</text></view>
+  <view class="error_text" hidden="{{hidden}}">
+    <text>请输入正确的评级编号</text>
+  </view>
+    <block wx:for="{{imgUrls}}" wx:key="i" wx:for-index="i" wx:for-item="item">
+      <swiper-item>
+        <image src="{{item}}" binderror="imgerror" style="width:{{ scaleWidth }}px;height:{{ scaleHeight }}px" bindload="imageLoad" mode="aspectFit" bindtap="clickImg"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="swiper-dots">
+    <block wx:for="{{slideDots}}" wx:key="i" wx:for-index="i" wx:for-item="item">
+      <view wx:if="{{item.cur}}" class="active"></view>
+      <view wx:else></view>
+    </block>
+  </view>
+  
+</view>

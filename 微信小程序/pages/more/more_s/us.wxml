@@ -1,0 +1,35 @@
+<view class="page">
+  <view class="main">
+    <view>
+      <text class="title">上海源泰艺术品服务有限公司</text>
+    </view>
+    <view>
+      <text class="content">工作时间：9:00—18:00</text>
+    </view>
+    <view>
+      <text class="content">客服热线：400-821-0715</text>
+    </view>
+    <view>
+      <text class="content">网址：www.ytgrading.com</text>
+    </view>
+    <view>
+      <text class="content">邮箱：service@ytgrading.com</text>
+    </view>
+    <view>
+      <text class="content">地址：上海市漕河泾开发区田林路1016号科技绿洲三期5号楼</text>
+    </view>
+    <view>
+      <text class="content">交通路线：</text>
+    </view>
+    <view>
+      <text class="content">轨道交通：地铁九号线-合川路站（2号出口）</text>
+    </view>
+    <view>
+      <text class="content">公共交通：田林路合川路：89路，莲花路田林路：548路；731路；752路；867路
+      </text>
+    </view>
+    <view class="section section_gap">
+      <map id="map" longitude="121.3874834776" latitude="31.1654056504" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 400rpx; "></map>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,38 @@
+<view class="page">
+  <view class="main_one">
+    <navigator url="increment/personality?title=personality" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="" class="icon_s"></image>
+        <text>个性化服务</text>
+        <image src="../../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+    <navigator url="increment/liangzhounian?title=lliangzhounian" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="" class="icon_s"></image>
+        <text>源泰两周年纪念章</text>
+        <image src="../../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>
+  </view>
+  <view class="main_two">
+
+    <!-- <navigator url="increment/zhitongche?title=zhitongche" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="" class="icon_s"></image>
+        <text>直通车</text>
+        <image src="../../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>-->
+
+    <!-- <navigator url="increment/either?title=either" hover-class="other-navigator-hover">
+      <view class="list">
+        <image src="" class="icon_s"></image>
+        <text>其他</text>
+        <image src="../../../image/right.png" class="icon_right"></image>
+      </view>
+    </navigator>-->
+  </view>
+</view>
+
+<!---->
